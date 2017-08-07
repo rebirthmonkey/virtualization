@@ -1,0 +1,6 @@
+# VM images
+*.img
+*.ova
+
+# IDEA
+.idea
