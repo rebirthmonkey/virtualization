@@ -5,10 +5,10 @@ This the a tutorial of different virtualization technologies.
 - [KVM-QEMU](kvm-qemu/kvm-qemu.md)
 
 ## VirtualBox
-- [VirtualBox](virtual-box/virtual-box.md)
+- [VirtualBox](virtualbox/README.md)
 
 ## Libvirt
 - [Libvirt](libvirt/libvirt.md)
 
 ## Vagrant
-- [Vagrant](vagrant/vagrant.md)
+- [Vagrant](vagrant/README.md)
