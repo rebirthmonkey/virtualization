@@ -12,3 +12,12 @@ This the a tutorial of different virtualization technologies.
 
 ## Vagrant
 - [Vagrant](vagrant/README.md)
+
+## Storage
+- [Storage](storage/README.md)
+
+## Bug
+### Libvirt
+- `failed to initialize KVM: Device or resource busy`: close Virtualbox
+- `no bootable device`: in XML `<driver name='qemu' type='qcow2'/>`
+

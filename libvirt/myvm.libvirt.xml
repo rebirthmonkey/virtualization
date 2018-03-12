@@ -30,8 +30,8 @@
   <devices>
     <emulator>/usr/bin/kvm-spice</emulator>
     <disk type='file' device='disk'>
-      <driver name='qemu' type='raw'/>
-      <source file='/var/lib/libvirt/images/debian-mini.img'/>
+      <driver name='qemu' type='qcow2'/>
+      <source file='/var/lib/libvirt/images/debian_wheezy_amd64_standard.qcow2'/>
       <target dev='vda' bus='virtio'/>
       <address type='pci' domain='0x0000' bus='0x00' slot='0x07' function='0x0'/>
     </disk>
@@ -101,6 +101,6 @@
   </devices>
   <qemu:commandline>
     <qemu:arg value='-redir'/>
-    <qemu:arg value='tcp:8884::80'/>
+    <qemu:arg value='tcp:8883::80'/>
   </qemu:commandline>
 </domain>
