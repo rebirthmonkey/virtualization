@@ -15,7 +15,9 @@ Virtualbox does a NAT between external traffic and VM
 
 ### Host-only Network
 This only allows the host to access the VM
-- create host-only network: `preference` --> `network` --> `host-only network` --> create a host-only network
+- create host-only network: `preference` --> `network` --> `host-only network`
+  - create a host-only network
+  - DHCP server enable
 - VM --> settings --> network --> Attached to `host-only X`: it will take the first IP address in the host-only network
 - in the host, we can then access the VM e.g. `ssh vagrant 88.88.88.2`
 

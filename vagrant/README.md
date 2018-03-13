@@ -8,9 +8,12 @@
 - `vagrant box list`: list all vagrant box (VM images)
 
 ### Network
-- NAT: `config.vm.network "forwarded_port", guest: 80, host: 8884`
-- private (virtualbox private + host-only): `config.vm.network "private_network", ip: "88.88.89.3"`
-- public (virtualbox bridged): `config.vm.network "public_network", ip: "88.88.88.3"`
+- NAT: VirtualBox NAT
+  - `config.vm.network "forwarded_port", guest: 80, host: 8884`
+- private: VirtualBox NAT + VirtualBox host-only
+  - `config.vm.network "private_network", ip: "88.88.89.3"`
+- public: VirtualBox NAT + VirtualBox bridge
+  - `config.vm.network "public_network"`
 
 ### ssh
 by default, private key authentication
