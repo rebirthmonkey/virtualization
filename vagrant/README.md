@@ -22,7 +22,13 @@ change to password authentication, in `Vagrantfile`:
 - `config.ssh.password = "vagrant"`
 
 ## TP
-Create an apache2 server in a VM through Vagrant
+### TP1: Apache Web Server
+Create an apache2 server in a VM through the [Vagrantfile](Vagrantfile)
 - launch vagrant with automatically installation: `vagrant up`
 - check the status of vagrant: `vagrant status`
 - access the web page through `http://localhost:8884/`
+
+### TP2: Frontend Backend Framework
+Create a frontend and a backend VM through the [Vagrantfile](tp/Vagrantfile)
+- `cd tp`
+- `vagrant up`
